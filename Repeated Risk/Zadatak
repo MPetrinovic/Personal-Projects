@@ -1,0 +1,18 @@
+Repozitorij sadrži schools_data.csv s podacima o uspjehu učenika u četiri škole. 
+Dataset je temeljen na "Student Performance Data Setu" (https://archive.ics.uci.edu/ml/datasets/Student+Performance) i 
+sadrži trening i validacijski set (kolona "data_perimeter").
+
+ 
+
+Cilj analize jest predvidjeti hoće li učenik ponavljati godinu ili ne (kolona "repeated"). Izvršite i prezentirajte eksplorativnu analizu podataka. 
+Istrenirajte nekoliko modela strojnog učenja, po vašem izboru, korištenjem Python biblioteka, uz istraživanje najboljih hiperparametara, te odaberite 
+najbolji na temelju njegovih performansi na validacijskom setu podataka.
+
+ 
+
+Na temelju cijelog seta podataka i korištenjem Python koda odgovorite na slijedeća pitanja:
+
+1. Koja škola ima najveći prosječni broj padova iz predmeta (kolona "failures")?
+
+2. Koliko PCA komponenata (na temelju kolona age, Medu, Fedu, traveltime, studytime, failures, famrel, 
+freetime, goout, Dalc, Walc, health, absences, repeated) je potrebno za 85% objašnjene varijance?
